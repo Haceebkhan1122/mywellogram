@@ -1,0 +1,100 @@
+.judgement {
+    padding-top: 100px;
+    padding-bottom: 120px;
+
+    @media (max-width: 767px) and (min-width: 320px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .boxjudg {
+        padding: 70px 0 70px 70px;
+        border-radius: 30px;
+        background: #FFF;
+        box-shadow: 0 4px 20px 0 rgba(15, 52, 90, 0.08);
+
+        @media (max-width: 767px) and (min-width: 320px) {
+            padding: 30px 20px;
+
+            h2 {
+                font-size: 26px;
+                text-align: left;
+                color: #313131;
+font-family: 'Satoshi-Bold';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+            }
+        }
+
+        h6 {
+            color: #313131;
+            font-family: "Satoshi-Bold";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 40px 0;
+
+            @media (max-width: 767px) and (min-width: 320px) {
+                color: #313131;
+font-family: 'Satoshi-Bold';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+                margin: 20px 0;
+                text-align: left;
+            }
+        }
+
+        p {
+            @media (max-width: 767px) and (min-width: 320px) {
+                text-align: left;
+                color: #313131;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+            }
+        }
+
+        .commonHeartRiskList {
+
+            padding: 0;
+            margin: 0px 0;
+            flex-wrap: wrap;
+            text-align: left;
+
+            li {
+                margin-bottom: 24px;
+                display: flex;
+                align-items: center;
+                position: relative;
+                gap: 18px;
+
+                p {
+                    margin: 0;
+                    color: #313131;
+                }
+
+                @media (max-width: 767px) and (min-width: 320px) {
+                    margin-bottom: 15px;
+                    gap: 10px;
+
+                    svg {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+        .imgVV {
+            @media (max-width: 767px) {
+                margin-top: 22px;
+                margin-bottom: 12px;
+            }
+        }}

@@ -1,0 +1,45 @@
+.footerBox {
+    background: #F9FAFB;
+    padding: 63px 0;
+
+     @media (max-width: 767px)  {
+        padding: 33px 0px;
+     }
+}
+
+.footer {
+
+    gap: 8px;
+    align-items: start;
+    display: flex;
+
+    svg {
+        position: relative;
+        top: -2px;
+    }
+
+    p {
+        color: #364153;
+        font-family: "Satoshi-Regular";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        b {
+            color: #364153;
+            font-family: "Satoshi-Bold";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    @media (max-width: 767px) and (min-width: 320px) {
+        p {
+            font-size: 16px;
+            width: 100%;
+        }
+    }
+}

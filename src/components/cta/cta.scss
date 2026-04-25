@@ -1,0 +1,142 @@
+.ctaSection {
+    .boxCta01 {
+        width: 100%;
+        height: 200px;
+        border-radius: 30px;
+        // background: rgba(147, 214, 0, 0.23);
+        position: relative;
+
+        .ctaImage {
+            position: absolute;
+            left: 35px;
+            bottom: 0px;
+            width: 262px;
+
+
+
+        }
+
+
+        h3 {
+            color: #313131;
+            font-family: "Satoshi-Bold";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            /* 218.75% */
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        @media (max-width: 767px) and (min-width: 320px) {
+            padding: 15px 10px 15px 145px;
+            border-radius: 15px;
+            height: auto;
+
+            .ctaImage {
+
+                left: 3px;
+
+                img {
+                    width: 145px;
+                }
+            }
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .boxCta01Urdu {
+        width: 100%;
+        height: 200px;
+        border-radius: 30px;
+        // background: rgba(147, 214, 0, 0.23);
+        position: relative;
+
+        .ctaImageUrdu {
+            position: absolute;
+            left: 35px;
+            bottom: 0px;
+            width: 262px;
+            right: 50px;
+
+            @media (min-width: 0px) and (max-width: 767px) {
+                right: 0;
+
+                img {
+                    -webkit-transform: scaleX(-1);
+                    transform: scaleX(-1);
+                }
+            }
+        }
+
+
+        h3 {
+            color: #313131;
+            font-family: "Satoshi-Bold";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            /* 218.75% */
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        @media (max-width: 767px) and (min-width: 320px) {
+            padding: 15px 10px 15px 145px;
+            border-radius: 15px;
+            height: auto;
+
+            .ctaImageUrdu {
+
+                left: 3px;
+
+                img {
+                    width: 145px;
+                }
+            }
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+body.urdu .boxCta01Urdu {
+    @media (min-width: 0px) and (max-width: 767px) {
+        padding: 15px 10px 15px 20px;
+
+        .row {
+            justify-content: end;
+
+            .textSectionUrdu {
+
+                p,
+                h3 {
+                    // text-align: left;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+section.bannerMain {
+    padding-top: 80px;
+
+    @media (max-width: 767px) and (min-width: 320px) {
+        padding-top: 30px;
+    }
+
+    .img-fluid {
+        width: 100%;
+
+        @media (max-width: 767px) {
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+
+    h1 {
+        color: #313131;
+        text-align: center;
+        font-family: "Satoshi-Bold";
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+
+        @media (max-width: 767px) {
+            font-size: 28px;
+            color: #313131;
+            text-align: center;
+            font-family: 'Satoshi-Bold';
+            font-size: 28px !important;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 11px;
+        }
+
+        span {
+            color: #93D600;
+            font-family: "Satoshi-Bold";
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            display: block;
+
+            @media (max-width: 767px) {
+                color: #93D600;
+                font-family: 'Satoshi-Medium';
+                font-size: 28px !important;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+        @media (max-width: 767px) and (min-width: 320px) {
+            font-size: 38px;
+
+            span {
+                font-size: 32px;
+            }
+        }
+    }
+
+    p {
+        color: #313131;
+        text-align: center;
+        font-family: "Satoshi-Regular";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 40px;
+
+        @media (max-width: 767px) and (min-width: 320px) {
+            font-size: 16px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+
+            color: #313131;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+        }
+    }
+
+    h2 {
+        @media (max-width: 767px) {
+            color: #313131;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            /* 31.2px */
+        }
+    }
+}

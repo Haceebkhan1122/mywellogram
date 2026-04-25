@@ -1,0 +1,1195 @@
+@font-face {
+  font-family: "Satoshi-LightItalic";
+  src: url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-LightItalic.woff2") format("woff2"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-LightItalic.woff") format("woff"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Regular.woff2") format("woff2"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Regular.woff") format("woff"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Regular.woff2") format("woff2"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Regular.woff") format("woff"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Medium.woff2") format("woff2"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Medium.woff") format("woff"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Bold.woff2") format("woff2"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Bold.woff") format("woff"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Black.woff2") format("woff2"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Black.woff") format("woff"),
+    url("https://pre.merisehat.pk/assets/fonts/satoshi/Satoshi-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dubai";
+  src: url("https://pre.merisehat.pk/assets/fonts/dubai/Dubai-Light.ttf") format("truetype");
+  // src: url('./../dubai/Dubai-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dubai";
+  // src: url('./../dubai/Dubai-Regular.ttf') format('truetype');
+  src: url("https://pre.merisehat.pk/assets/fonts/dubai/Dubai-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dubai";
+  src: url("https://pre.merisehat.pk/assets/fonts/dubai/Dubai-Medium.ttf") format("truetype");
+  // src: url('./../dubai/Dubai-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dubai";
+  src: url("https://pre.merisehat.pk/assets/fonts/dubai/Dubai-Bold.ttf") format("truetype");
+  // src: url('./../dubai/Dubai-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+h2 {
+  color: #313131;
+  font-family: "Satoshi-Bold";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+
+  /* 140% */
+  @media (max-width: 767px) and (min-width: 320px) {
+    line-height: normal;
+    color: #313131;
+    font-family: "Satoshi-Bold";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+  }
+}
+
+p {
+  color: #313131;
+  font-family: "Satoshi-Regular";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    color: #313131;
+    font-family: "Satoshi-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+  }
+}
+
+.btn01 {
+  border-radius: 75px;
+  background: rgba(147, 214, 0, 0.8);
+  display: flex;
+  width: 300px;
+  height: 60px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Satoshi-Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  outline: 0px !important;
+  border: 0px;
+
+  /* 28.8px */
+  transition: 0.6s;
+
+  &:hover {
+    background: #313131;
+    transition: 0.6s;
+  }
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    height: 50px;
+    width: 91%;
+    font-size: 16px;
+  }
+}
+
+.pt-120 {
+  padding-top: 60px;
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    padding-top: 50px;
+  }
+}
+
+.mt-120 {
+  margin-top: 120px;
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    margin-top: 40px;
+  }
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    margin-top: 40px;
+  }
+}
+
+.homePage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    margin-top: 61px;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.custom-loadingWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000030;
+  transition: all 0.3s ease-in-out;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    padding-bottom: 60px;
+  }
+}
+
+hr {
+  @media (max-width: 767px) and (min-width: 320px) {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 992px) {
+  header.wellogramHeader nav a {
+    font-size: 16px;
+  }
+
+  .bmiCalculateSection p {
+    font-size: 18px;
+  }
+
+  li.hk_li_style p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 992px) {
+  header.wellogramHeader nav a {
+    font-size: 14px;
+  }
+}
+
+.hk_li_style {
+  padding: 14px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 20px 24px 0 rgba(220, 228, 228, 0.3);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+li.hk_li_style img {
+  margin-bottom: 12px;
+}
+
+.df {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.calculatoBoxBmi {
+  @media (max-width: 767px) {
+    height: 100vh !important;
+  }
+
+  .leftBox {
+    height: 20vh;
+
+    @media (max-width: 767px) {
+      height: 20vh !important;
+    }
+  }
+
+  .rightBox {
+    display: flex;
+    height: unset !important;
+    flex-direction: column;
+
+    @media (max-width: 767px) {
+      height: 100% !important;
+    }
+  }
+
+  .ell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    h5 {
+      color: #313131;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    p {
+      color: rgba(49, 49, 49, 0.7);
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  button {
+    width: 100% !important;
+    color: #fff;
+    text-align: center;
+    font-family: "Satoshi-Bold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5px;
+    border-radius: 80px;
+    background: #313131;
+    transition: 0.6s;
+  }
+}
+.sliderWrap button.btnPrev {
+    display: none;
+}
+
+.sliderWrap button.btnNext {
+    display: none;
+}
+
+// eng to urdu css start here
+
+.timeToTalk .forUrduFont p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 0.5rem;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    padding: 0 0;
+    text-align: right;
+  }
+
+  p {
+    text-align: center;
+    line-height: 1.3;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      padding: 0 0;
+      text-align: right;
+    }
+  }
+}
+
+.timeToTalk .listBox li:nth-child(3) {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+
+body.urdu .timeToTalk .forUrduFont p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 0.5rem;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    padding: 0 0;
+    text-align: right;
+  }
+
+  p {
+    @media (min-width: 0px) and (max-width: 767px) {
+      padding: 0 0;
+      text-align: right;
+    }
+  }
+}
+
+.timeToTalk .secondForUrduFont p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 6.5rem;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    padding: 0 0;
+    text-align: right;
+  }
+
+  p {
+    text-align: center;
+    line-height: 1.3;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      padding: 0 0;
+      text-align: right;
+    }
+  }
+}
+
+body.urdu header.wellogramHeader nav {
+  flex-direction: row-reverse;
+}
+
+body.urdu .bannerMain h1 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px !important;
+  line-height: 95px;
+  text-align: center;
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    font-size: 28px !important;
+    line-height: 38px;
+    /* 135.714% */
+  }
+}
+
+body.urdu .bannerMain p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  padding: 0 5rem;
+
+  @media (max-width: 767px) and (min-width: 320px) {
+    line-height: 22px;
+    padding: 0 0;
+    font-size: 16px;
+  }
+}
+
+body.urdu .timeToTalk h2 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  padding: 0 2rem;
+
+  @media (max-width: 767px) and (min-width: 0px) {
+    text-align: right;
+  }
+}
+
+
+
+body.urdu .timeToTalk .secondForUrduFont p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 4.5rem;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    padding: 0 0;
+    text-align: right;
+  }
+
+  p {
+    @media (min-width: 0px) and (max-width: 767px) {
+      padding: 0 0;
+      text-align: right;
+    }
+  }
+}
+
+
+
+
+
+body.urdu .timeToTalk .listBox {
+  direction: rtl;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    margin: 30px 0;
+  }
+
+  li {
+    &::before {
+      @media (min-width: 0px) and (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    img {
+      @media (min-width: 0px) and (max-width: 767px) {
+        width: 38.812px;
+        height: 22px;
+      }
+    }
+  }
+}
+
+body.urdu .timeToTalk .listBox p {
+  font-family: "Dubai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  text-align: right;
+}
+
+body.urdu .timeToTalk .btn01 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  text-align: center;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 20px;
+  }
+}
+
+body.urdu .commonHeartRisk .colTwo h2 {
+  font-family: "Dubai";
+  font-weight: 700;
+  text-align: right;
+  font-style: Bold;
+  font-size: 50px;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 26px;
+  }
+}
+
+body.urdu .commonHeartRisk .colTwo p {
+  font-family: "Dubai";
+  font-weight: 400;
+  text-align: right;
+  font-style: normal;
+  font-size: 24px;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+body.urdu .commonHeartRisk .colTwo h6 {
+  text-align: right;
+  direction: rtl;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    margin: 40px 0 16px 0;
+  }
+}
+
+body.urdu .commonHeartRisk {
+  h6 {
+    @media (min-width: 0px) and (max-width: 767px) {
+      text-align: right;
+      margin-bottom: 15px;
+      margin-top: 10px;
+    }
+  }
+}
+
+body.urdu .commonHeartRiskList {
+  direction: rtl;
+
+  li {
+    @media (min-width: 0px) and (max-width: 767px) {
+      margin-bottom: 10px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+body.urdu .colTwo li {
+  direction: rtl;
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    margin-bottom: 10px;
+  }
+
+  img {
+    @media (min-width: 0px) and (max-width: 767px) {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+
+body.urdu .obesityRising .headingFont h2 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 70px;
+  text-align: center;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 26px;
+    line-height: 35px;
+    text-align: right;
+  }
+}
+
+body.urdu .obesityRising .headingFont p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  direction: rtl;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+  }
+}
+
+body.urdu .obesityRising .box01 {
+  direction: rtl;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    // width: 85% !important;
+  }
+
+  img {
+    @media (min-width: 0px) and (max-width: 767px) {
+      width: 42px;
+      height: 42px;
+      flex-shrink: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  p {
+    @media (min-width: 0px) and (max-width: 767px) {
+      text-align: right;
+    }
+  }
+}
+
+body.urdu .judgement .boxjudg {
+  h6 {
+    @media (min-width: 0px) and (max-width: 767px) {
+      text-align: right;
+    }
+  }
+
+  .commonHeartRiskList {
+    li {
+      p {
+        @media (min-width: 0px) and (max-width: 767px) {
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+body.urdu .obesityRising .webbox01 h5 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+  }
+}
+
+body.urdu .obesityRising .webbox01 p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+  }
+}
+
+body.urdu .boxjudg .secondCol h2 {
+  text-align: right;
+  padding-left: 5rem;
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 70px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+    padding-left: 7rem;
+  }
+}
+
+body.urdu .boxjudg .secondCol .pera {
+  text-align: right;
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+  }
+}
+
+body.urdu .boxjudg .secondCol h6 {
+  direction: rtl;
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+body.urdu .boxjudg .secondCol .commonHeartRiskList .riskWeb {
+  img {
+    @media (min-width: 0px) and (max-width: 767px) {
+      width: 38.812px;
+      height: 22px;
+    }
+  }
+}
+
+body.urdu .boxjudg .secondCol .commonHeartRiskList .riskWeb p {
+  font-weight: 400;
+  font-family: "Dubai";
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+body.urdu .bmiCalculateSection h2 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 26px;
+    text-align: right;
+  }
+}
+
+body.urdu .bmiCalculateSection p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+    text-align: right;
+    line-height: 22px;
+  }
+}
+
+body.urdu .educationalResourceSec .infoDes h2 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 70px;
+  text-align: center;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    text-align: right;
+    font-size: 26px;
+  }
+}
+
+body.urdu .educationalResourceSec .infoDes p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+  }
+}
+
+body.urdu .educationalResourceSec .boxSlide .boxSlideImg {
+  @media (min-width: 0px) and (max-width: 767px) {
+    height: 160px;
+
+    .imageB {
+      height: 100%;
+      width: 100%;
+    }
+
+    .icon01 {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+    }
+  }
+}
+
+body.urdu .educationalResourceSec .boxSlide h5 {
+  text-align: right;
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+body.urdu .educationalResourceSec .boxSlide .cat {
+  text-align: right;
+  font-family: "Dubai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 12px;
+  }
+}
+
+body.urdu .educationalResourceSec .boxSlide .boxSlideImg .icon01 {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  transition: 0.6s;
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+body.urdu .boxCta01Urdu {
+  direction: rtl;
+}
+
+body.urdu .ctaSection .boxCta01Urdu .ctaImageUrdu {
+  left: auto;
+}
+
+body.urdu .textSectionUrdu {
+  position: absolute;
+  left: 0;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    position: relative;
+  }
+}
+
+body.urdu .textSectionUrdu p {
+  width: 75%;
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 14px !important;
+    line-height: 19px;
+    width: 100%;
+  }
+}
+
+body.urdu .textSectionUrdu h3 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 19px;
+    width: 170px;
+  }
+}
+
+body.urdu .trackerSection .boxTrack h4 {
+  text-align: right;
+}
+
+body.urdu .trackerSection .boxTrack p {
+  text-align: right;
+  padding-left: 1rem;
+}
+
+body.urdu .trackerSection .boxTrack .boxBottom {
+  flex-direction: row-reverse;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    flex-direction: row-reverse !important;
+    padding-left: 0px;
+  }
+}
+
+body.urdu .boxTrack .boxBottom .leftB .btnExp {
+  @media (min-width: 0px) and (max-width: 767px) {
+    margin-top: 24px;
+  }
+}
+
+body.urdu .boxTrack .boxBottom .imageBox {
+  @media (min-width: 0px) and (max-width: 767px) {
+    height: 180px;
+
+    img {
+      bottom: -10px;
+      object-fit: contain;
+      object-position: left;
+    }
+  }
+}
+
+body.urdu .trackerSection .boxTrack .boxBottom .listTools {
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    margin: 0;
+    height: auto;
+
+    li {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+body.urdu .trackerSection .boxTrack {
+  padding: 48px 48px 0px 0px;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    padding: 20px 20px 20px 0px;
+    height: 320px;
+  }
+}
+
+body.urdu .startSection .otherpart h2 {
+  text-align: right;
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 26px;
+  }
+}
+
+body.urdu .startSection .otherpart .pera {
+  text-align: right;
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+body.urdu .startSection .otherpart ul {
+  direction: rtl;
+}
+
+body.urdu .startSection .hk_li_style p {
+  font-family: "Dubai";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  text-align: center;
+}
+
+body.urdu .startSection {
+  ul {
+    @media (min-width: 0px) and (max-width: 767px) {
+      gap: 10px;
+      direction: rtl;
+      justify-content: center;
+      padding-right: 0;
+    }
+
+    .hk_li_style {
+      @media (min-width: 0px) and (max-width: 767px) {
+        height: 108px !important;
+
+        img {
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+
+        p {
+          font-size: 12px;
+          font-weight: 500;
+          font-family: "Satoshi-Medium";
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+body.urdu .footer {
+  @media (min-width: 0px) and (max-width: 767px) {
+    direction: rtl;
+  }
+}
+
+body.urdu .footerBox .footer p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+body.urdu .timeToTalk .listBox li::after {
+  content: none;
+}
+
+body.urdu .timeToTalk .listBox li::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #36415340;
+  position: absolute;
+  top: 0;
+  left: 1px;
+}
+
+body.urdu .timeToTalk .listBox li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 47px;
+  margin-left: 42px;
+  gap: 18px;
+}
+
+body.urdu .timeToTalk .listBox li:last-child:before {
+  content: none;
+}
+
+body.urdu .footerBox .footer {
+  direction: rtl;
+}
+
+body.urdu .calculateBmi .rightBox h3 {
+  text-align: right;
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 70px;
+}
+
+body.urdu .resultBox h6 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  text-align: right;
+}
+
+body.urdu .resultBox .forUrdu {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  text-align: right;
+}
+
+body.urdu .resultList li h3 {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  text-align: right;
+  color: #313131;
+  margin-right: 0.5rem !important;
+}
+
+body.urdu .resultBox .resultList li p {
+  font-family: "Dubai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 0.5rem !important;
+  color: #313131;
+}
+
+body.urdu .obesityRising .webboxDirection {
+  direction: rtl;
+}
+
+body.urdu header.wellogramHeader nav a {
+  font-family: "Dubai";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+  color: #313131;
+}
+
+body.urdu section.bannerMain h1 span {
+  font-family: "Dubai";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+}
+
+body.urdu .timeToTalk .listBox li:nth-child(3) {
+  margin-left: 0;
+  padding-left: 0;
+}
+// eng to urdu css end heres
