@@ -4,7 +4,7 @@ import { renderWidget } from '../utils/common'
 
 function Home({ widgets }) {
     const [pageName, setPageName] = useState();
-    
+
     useEffect(() => {
         setPageName(widgets?.slug)
     }, []);
@@ -13,10 +13,7 @@ function Home({ widgets }) {
         <>
             <Header />
             <section className='homePage'>
-                {widgets?.length > 0 && widgets?.map((item, index) => {
-                    const { key_type } = item;
-                    return renderWidget(key_type, item, index, false, pageName);
-                })}
+                <h1>Its AWS / Jenkins / Docker</h1>
             </section>
         </>
     )

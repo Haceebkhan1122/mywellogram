@@ -191,8 +191,11 @@ p {
 
 .homePage {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 767px) {
     margin-top: 61px;
@@ -339,12 +342,13 @@ li.hk_li_style img {
     transition: 0.6s;
   }
 }
+
 .sliderWrap button.btnPrev {
-    display: none;
+  display: none;
 }
 
 .sliderWrap button.btnNext {
-    display: none;
+  display: none;
 }
 
 // eng to urdu css start here
@@ -1192,4 +1196,5 @@ body.urdu .timeToTalk .listBox li:nth-child(3) {
   margin-left: 0;
   padding-left: 0;
 }
+
 // eng to urdu css end heres
