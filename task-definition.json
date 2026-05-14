@@ -1,12 +1,12 @@
 {
     "family": "react-app-task",
-    "taskRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskRole",
-    "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsExecutionRole",
+    "taskRoleArn": "arn:aws:iam::995775697900:role/ecsTaskRole",
+    "executionRoleArn": "arn:aws:iam::995775697900:role/ecsExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
             "name": "react-app",
-            "image": "PLACEHOLDER_IMAGE", // Pipeline replace karegi
+            "image": "PLACEHOLDER_IMAGE",
             "essential": true,
             "portMappings": [
                 {
